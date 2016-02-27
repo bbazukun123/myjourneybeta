@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 400px;
+	background: url("images/277H.jpg") center center;
+	background-size: cover;
+}
+
+.profile_container {
+	display: block;
+	width: 680px;
+	height: 250px;
+	margin: 0 auto 0 auto;
+	padding-top: 60px;
+}
+
+.profile_container img {
+	display:block;
+	float: left;
+	width: 250px;
+	height: 250px;
+}
+
+.text_holder {
+	display:block;
+	width: 400px;
+	float: left;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-left: 30px;
+}
+
+.text_holder h1 {
+	font-family: 'Slabo 27px', serif;
+	display: inline-block;
+	font-size: 45px;
+	letter-spacing: 7px;
+	text-align:center;
+	padding: 8px 15px 8px 25px;
+	border: 8px solid;
+	border-radius: 15px;
+	margin: 60px auto 0 auto;
+}
+
+.text_holder h3 {
+	font-family: 'Slabo 27px', serif;
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-align:center;
+	margin: 20px auto 0 85px;
+}
+
+.main_nav {
+	clear: both;
+}
+
+.main_nav a {
+	font-family: 'Slabo 27px', serif;
+	display:inline-block;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-decoration: none;
+	margin: 50px 11% 0 11%;
+}
+
+.main_nav a:hover {
+	color: #f26c4f;
+}
